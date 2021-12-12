@@ -1,0 +1,26 @@
+############### - afkdetector.bypass permision will bypass afk flagging
+# AFKDetector # - all times are in seconds
+###############
+
+# the size of the invisible sphere they must be inside for the player to be considered afk
+radius: 4
+
+# message sent to players at intervals during their afk time
+message: "&7You need to move around to avoid being kicked"
+
+# how long it takes for a player to be flagged as afk
+flag-time: 300
+
+# delay between each message
+message-delay: 30
+
+# amount of times the message will be sent with the message delay before they are kicked
+# this starts after the flag-time has been reached
+message-repeats: 4
+
+# command ran by console when player should be kicked (omit /)
+# placeholders: %player% - will be replaced by player's name
+kick-command: "kick %player% &cYou have been kicked for being AFK."
+
+# if true will cancel afk timer on chat
+chat-cancels-timer: true

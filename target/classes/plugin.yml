@@ -1,0 +1,3 @@
+name: AFKDetector
+version: 2.0
+main: me.synapz.afkdetector.AFKDetector

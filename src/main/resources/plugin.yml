@@ -1,0 +1,3 @@
+name: AFKDetector
+version: ${project.version}
+main: me.synapz.afkdetector.AFKDetector
